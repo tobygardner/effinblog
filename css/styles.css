@@ -1,0 +1,94 @@
+html {
+  box-sizing: border-box;
+}
+body {
+	font-family: "open-sans",sans-serif;
+	font-size: 14px;
+	color: #838994;
+	letter-spacing: 0.03em;
+	-webkit-font-smoothing: antialiased;
+}
+img {
+	margin: 0 auto;
+}
+.top-navigation {
+	width: 100%;
+	background-color: #f4f4f4;
+	font-size: 1.0em;
+	position: fixed;
+	z-index: 9999;
+}
+.top-navigation > .nav-menu {
+    height: 700px;
+}
+.nav-menu {
+	width: 80%;
+	padding: 0px 15px;
+	margin: 0 auto;
+	box-sizing: border-box;
+}
+
+.links li {
+	display: inline-block;
+	list-style: none;
+	float: left;
+	padding: 8px 15px 8px 0;
+}
+.Social-media li {
+	display: inline-block;
+	list-style: none;
+	float: right;
+	padding: 8px 15px 8px 0;
+}
+.content {
+	width: 970px;
+	padding: 0px 15px;
+	margin: 0 auto;
+	box-sizing: border-box;
+}
+.header-logo {
+	display: inline-block;
+
+}
+.header-logo h1 {
+	margin: 3em 0;
+	background-color: #fff;
+	text-align: center;
+}
+/*Cases Section*/
+.blogs-container {
+	background-color: #FFF;
+	overflow: auto;
+	padding-bottom: 5rem;
+}
+.blogs-container h3 {
+	margin-top: 1rem;
+	font-size: .8rem;
+	text-align: left;
+    font-weight: 300;
+	color: #000;
+}
+.blogs-container h2 {
+	margin-top: 1rem;
+	font-size: .9rem;
+	text-align: center;
+    font-weight: 300;
+	color: #000;
+}
+.blogs-container h1 {
+	color: #000;
+	font-size: 1.563rem;
+	font-weight: 300;
+	text-align: center;
+
+}
+.blogs-container .latest-blogs{
+	display: inline-block;
+	width: 30%;
+	box-sizing: border-box;
+	
+}
+.latest-blogs {
+	margin: 0 auto;
+	width="150" height="150";
+}
